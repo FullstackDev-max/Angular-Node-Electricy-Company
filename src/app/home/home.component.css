@@ -1,0 +1,49 @@
+@media (min-width:900px){
+    .svg--small-house{
+        width: 567px !important;
+        height: 322px !important;
+    }
+} 
+.button, [type="button"], [type="reset"], [type="submit"], button {
+    padding: 1.125em 4.5em 1.125em 1.5em;
+    background-image: url('../../assets/images/home/arrow-d73cc09639.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 1.5em) center;
+} 
+.zip-search--home .zip-search__submit {
+    padding-right: 4.5em;
+    background-image: url('../../assets/images/home/arrow-d73cc09639.png');
+}
+.call-to-action--steps span:not(:last-of-type)::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    width: 80px;
+    height: 17px;
+    margin-left: 20px;
+    background-image: url('../../assets/images/home/arrow--blue-6be14ac3a1.png');
+    background-position: center;
+    background-size: 80px 17px;
+}
+.zip-search__link{
+    position: relative;
+    left:-16%;
+}
+.slider__item{
+    position: relative;
+    -webkit-transition:left 1s ease-in-out;
+    -moz-transition:left 1s ease-in-out;
+    -o-transition:left 1s ease-in-out;
+    transition:left 1s ease-in-out;
+}
+#filo{
+    height: 100%;
+    max-height: 100%;
+    max-width: 375px;
+    position: fixed;
+    right: 0;
+    top: 100%;
+    transition: top .2s 10ms;
+    
+}
